@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{0587d7a3-f2ce-4d56-b84f-a0005d3bfce6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sources">
+      <UniqueIdentifier>{08e36723-ce4f-4cff-9662-c40801cf1acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WIndowThread">
+      <UniqueIdentifier>{3ce0c7be-089d-4415-80c9-c6eb5f4d0bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Particles">
+      <UniqueIdentifier>{ddcc4daa-987f-4e60-8e44-fe93f6c4a0bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MacroThread">
+      <UniqueIdentifier>{41611979-00d8-4df1-a9bd-7bfe0efabb98}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_dx11.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\backends\imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowThread.h">
+      <Filter>WIndowThread</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="font_buffers.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="pfp.h">
+      <Filter>WIndowThread</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>MacroThread</Filter>
+    </ClInclude>
+    <ClInclude Include="binding.h">
+      <Filter>sources</Filter>
+    </ClInclude>
+    <ClInclude Include="col.h">
+      <Filter>Particles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\imgui_tables.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_dx11.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\backends\imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowThread.cpp">
+      <Filter>WIndowThread</Filter>
+    </ClCompile>
+    <ClCompile Include="Macro.cpp">
+      <Filter>MacroThread</Filter>
+    </ClCompile>
+    <ClCompile Include="binding.cpp">
+      <Filter>sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.txt" />
+    <None Include="..\..\misc\debuggers\imgui.natvis">
+      <Filter>imgui</Filter>
+    </None>
+    <None Include="..\..\misc\debuggers\imgui.natstepfilter">
+      <Filter>imgui</Filter>
+    </None>
+  </ItemGroup>
+</Project>
